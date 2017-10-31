@@ -7,6 +7,8 @@ Crea una web que pida, por medio de un prompt(), el número de una tarjeta de cr
 2. El usuario no debe poder ingresar un campo vacío
 
 ## PSEUDOCÓDIGO
+
+INICIO
 1. Crear una web que pida al usuario por medio de un prompt() un número de tarjeta de crédito.
   1. Do while "Sólo puedes ingresar números, sin espacios" y volver a mostrar el prompt(); si el usuario ingresa letras o espacios
 2. Tomar los números ingresados por el usuario e invertir su posición por medio de .reverse
@@ -19,6 +21,7 @@ Crea una web que pida, por medio de un prompt(), el número de una tarjeta de cr
       4. 2.1.2 Eliminar espacios con .slice() / .delete()
       4. 2.1.3 Convertir a números y sumar elementos. Guardar resultado en una variable
 5. Sumar 3 resultados; si el resultado %10 == 0 // Devolver document.write("El número de TC que ingresaste es válida"). Caso contrario documen.write("La tarjeta es inválida")
+FIN
 
 ### DIAGRAMA DE FLUJO
 ![Diagrama de flujo](diagrama-flujo-tarjeta.jpeg);
